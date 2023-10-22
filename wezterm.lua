@@ -3,10 +3,10 @@ local wezterm = require("wezterm")
 -- local launch_menu = {}
 -- local default_shell = "/bin/zsh"
 local padding = {
-	left = "1cell",
-	right = "1cell",
-	top = "0.5cell",
-	bottom = "0.5cell",
+	left = "0.3cell",
+	right = "0.3cell",
+	top = "0.1cell",
+	bottom = "0.1cell",
 }
 
 -- Reload the configuration every ten minutes
@@ -112,7 +112,7 @@ return {
 	selection_word_boundary = " \t\n{}[]()\"'`,;:@",
 	-- disable_default_key_bindings = true,
 	line_height = 1.25,
-	font_size = 13,
+	font_size = 14,
 	window_background_opacity = 0.95,
 	bold_brightens_ansi_colors = false,
 	-- swap_backspace_and_delete = false,
